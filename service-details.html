@@ -87,65 +87,60 @@
           </ol>
         </div>
       </nav>
-    </div><section id="service-details" class="service-details section">
+    </div>
 
-      <div class="container">
+<section id="service-details" class="service-details section">
+  <div class="container">
+    <div class="row gy-5">
 
-        <div class="row gy-5">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="service-box">
-              <h4>Services List</h4>
-              <div class="services-list">
-                <!-- <a href="#" class="active"><i class="bi bi-arrow-right-circle"></i><span>AI & Machine Learning</span></a> -->
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>AI & Machine Learning</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Agentic AI</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Full-Stack Development</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Startup Advisory (MVP/GTM)</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Cloud & DevOps</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Cost Optimization</span></a>
-              </div>
-            </div><div class="service-box">
-              <!-- <h4>Download Brochures</h4>
-              <div class="download-catalog">
-                <a href="#"><i class="bi bi-filetype-pdf"></i><span>AI Services Brochure</span></a>
-                <a href="#"><i class="bi bi-filetype-pdf"></i><span>Startup Advisory Deck</span></a>
-              </div> -->
-            </div><div class="help-box d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-headset help-icon"></i>
-              <h4>Have a Question?</h4>
-              <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>+91 98765 43210</span></p>
-              <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a href="mailto:hello@optivra.com">hello@optivra.com</a></p>
-            </div>
-
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-box">
+          <h4>Services List</h4>
+          <div class="services-list">
+            <a href="#" class="service-link active" data-service="ai-ml"><i class="bi bi-arrow-right-circle"></i><span>AI & Machine Learning</span></a>
+            <a href="#" class="service-link" data-service="agentic-ai"><i class="bi bi-arrow-right-circle"></i><span>Agentic AI</span></a>
+            <a href="#" class="service-link" data-service="full-stack"><i class="bi bi-arrow-right-circle"></i><span>Full-Stack Development</span></a>
+            <a href="#" class="service-link" data-service="startup"><i class="bi bi-arrow-right-circle"></i><span>Startup Advisory (MVP/GTM)</span></a>
+            <a href="#" class="service-link" data-service="cloud-devops"><i class="bi bi-arrow-right-circle"></i><span>Cloud & DevOps</span></a>
+            <a href="#" class="service-link" data-service="cost-opt"><i class="bi bi-arrow-right-circle"></i><span>Cost Optimization</span></a>
           </div>
+        </div>
+        
+        <div class="help-box d-flex flex-column justify-content-center align-items-center">
+          <i class="bi bi-headset help-icon"></i>
+          <h4>Have a Question?</h4>
+          <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>+91 8360934511</span></p>
+          <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a href="mailto:hello@optivra.com">hello@optivra.com</a></p>
+        </div>
+      </div>
 
-          <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/services.jpg" alt="AI and Machine Learning" class="img-fluid services-img">
-            <h3>AI & Machine Learning Solutions</h3>
-            <p>
-              At Optivra, we move beyond the hype to build practical, high-impact AI solutions that deliver measurable business value. Our team, with experience from Google, IBM, and AWS, specializes in designing and deploying intelligent systems that automate processes, optimize performance, and unlock new insights from your data.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Custom AI Model Development: From NLP and computer vision to predictive analytics.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Agentic AI: We are at the forefront of R&D in Agentic AI, building autonomous agents to manage complex, multi-step tasks and workflows.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Data-Driven Strategy: We help you define a clear AI strategy, starting with your most valuable use cases.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Scalable Deployment: We build resilient, cloud-native AI systems that scale with your business.</span></li>
-            </ul>
-            <p>
-              Whether you are a startup looking to build an AI-powered MVP or an enterprise seeking to automate critical functions, our approach blends cutting-edge research with the robust engineering required for real-world performance.
-            </p>
-            <p>
-              We guide you from initial concept and data strategy to model training and full-scale production deployment, ensuring your AI initiatives are successful, secure, and future-proof.
-            </p>
-          </div>
-
+      <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
+        
+        <img id="service-image" src="assets/img/services.jpg" alt="Service Image" class="img-fluid services-img">
+        
+        <h3 id="service-title">AI & Machine Learning Solutions</h3>
+        
+        <div id="service-content">
+          <p>
+            At Optivra, we move beyond the hype to build practical, high-impact AI solutions that deliver measurable business value. Our team, with experience from Google, IBM, and AWS, specializes in designing and deploying intelligent systems that automate processes, optimize performance, and unlock new insights from your data.
+          </p>
+          <ul>
+            <li><i class="bi bi-check-circle"></i> <span>Custom AI Model Development: From NLP and computer vision to predictive analytics.</span></li>
+            <li><i class="bi bi-check-circle"></i> <span>Data-Driven Strategy: We help you define a clear AI strategy, starting with your most valuable use cases.</span></li>
+            <li><i class="bi bi-check-circle"></i> <span>Scalable Deployment: We build resilient, cloud-native AI systems that scale with your business.</span></li>
+          </ul>
+          <p>
+            Whether you are a startup looking to build an AI-powered MVP or an enterprise seeking to automate critical functions, our approach blends cutting-edge research with the robust engineering required for real-world performance.
+          </p>
         </div>
 
       </div>
 
-    </section></main>
+    </div>
+  </div>
+</section>
+
+  </main>
 
   <footer id="footer" class="footer dark-background">
 
@@ -220,6 +215,141 @@
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
 
   <script src="assets/js/main.js"></script>
+
+
+  <script>
+  // 1. Define Content Data
+  const serviceData = {
+    "ai-ml": {
+      title: "AI & Machine Learning Solutions",
+      img: "assets/img/services.jpg", 
+      content: `
+        <p>At Optivra, we move beyond the hype to build practical, high-impact AI solutions. Our team specializes in designing and deploying intelligent systems that automate processes, optimize performance, and unlock new insights from your data.</p>
+        <ul>
+          <li><i class="bi bi-check-circle"></i> <span><strong>Custom Model Development:</strong> NLP, Computer Vision, and Predictive Analytics tailored to your niche.</span></li>
+          <li><i class="bi bi-check-circle"></i> <span><strong>Data Strategy:</strong> We audit your data readiness and define high-value use cases.</span></li>
+          <li><i class="bi bi-check-circle"></i> <span><strong>MLOps:</strong> Building resilient pipelines for continuous training and deployment.</span></li>
+        </ul>
+        <p>From concept to production, we ensure your AI initiatives are successful, secure, and future-proof.</p>
+      `
+    },
+    "agentic-ai": {
+      title: "Agentic AI & Autonomous Systems",
+      img: "assets/img/services.jpg", 
+      content: `
+        <p>Step into the future of automation with Agentic AI. Unlike traditional chatbots, our autonomous agents can plan, reason, and execute complex multi-step workflows with minimal human intervention.</p>
+        <ul>
+          <li><i class="bi bi-check-circle"></i> <span><strong>Autonomous Workflows:</strong> Agents that can browse the web, use tools, and manage software tasks independently.</span></li>
+          <li><i class="bi bi-check-circle"></i> <span><strong>Multi-Agent Systems:</strong> Orchestrating teams of specialized AI agents to solve complex business problems.</span></li>
+          <li><i class="bi bi-check-circle"></i> <span><strong>Human-in-the-loop Design:</strong> Ensuring safety and control while maximizing autonomy.</span></li>
+        </ul>
+        <p>We are at the forefront of Agentic R&D, helping businesses reduce operational overhead by deploying intelligent digital workers.</p>
+      `
+    },
+    "full-stack": {
+      title: "Full-Stack Engineering",
+      img: "assets/img/services.jpg", 
+      content: `
+        <p>Your business needs a robust digital foundation. We deliver end-to-end web and mobile applications using modern frameworks, ensuring speed, scalability, and a seamless user experience.</p>
+        <ul>
+          <li><i class="bi bi-check-circle"></i> <span><strong>Modern Frontend:</strong> Responsive, high-performance UIs using React, Next.js, and Vue.</span></li>
+          <li><i class="bi bi-check-circle"></i> <span><strong>Robust Backend:</strong> Secure and scalable APIs built with Node.js, Python (Django/FastAPI), and Go.</span></li>
+          <li><i class="bi bi-check-circle"></i> <span><strong>Database Architecture:</strong> Optimized SQL and NoSQL schema design for high-volume data handling.</span></li>
+        </ul>
+        <p>Whether it is a complex SaaS platform or a consumer-facing app, our engineering standards ensure your product is built to last.</p>
+      `
+    },
+    "startup": {
+      title: "Startup Advisory (MVP & GTM)",
+      img: "assets/img/services.jpg", 
+      content: `
+        <p>Speed is life for a startup. We partner with founders to transform ideas into market-ready products rapidly. We don't just code; we advise on product-market fit and technical feasibility.</p>
+        <ul>
+          <li><i class="bi bi-check-circle"></i> <span><strong>Rapid MVP Development:</strong> Launch your core product in weeks, not months, to gather user feedback.</span></li>
+          <li><i class="bi bi-check-circle"></i> <span><strong>Fractional CTO Services:</strong> High-level technical leadership without the full-time cost.</span></li>
+          <li><i class="bi bi-check-circle"></i> <span><strong>Go-To-Market Tech:</strong> Setting up analytics, CRM integrations, and growth tools.</span></li>
+        </ul>
+        <p>We have helped founders navigate the journey from "Idea on a Napkin" to Series A funding.</p>
+      `
+    },
+    "cloud-devops": {
+      title: "Cloud Architecture & DevOps",
+      img: "assets/img/services.jpg", 
+      content: `
+        <p>Scale with confidence. We design secure, high-availability cloud infrastructures on AWS, Azure, and GCP, ensuring your applications remain up and running regardless of traffic spikes.</p>
+        <ul>
+          <li><i class="bi bi-check-circle"></i> <span><strong>Infrastructure as Code (IaC):</strong> Automating server provisioning using Terraform and Ansible.</span></li>
+          <li><i class="bi bi-check-circle"></i> <span><strong>CI/CD Pipelines:</strong> Streamlining deployment to push code updates faster and with fewer errors.</span></li>
+          <li><i class="bi bi-check-circle"></i> <span><strong>Security & Compliance:</strong> Implementing best practices to protect your data and infrastructure.</span></li>
+        </ul>
+        <p>Our DevOps culture bridges the gap between development and operations, increasing efficiency and reliability.</p>
+      `
+    },
+    "cost-opt": {
+      title: "Cloud Cost Optimization",
+      img: "assets/img/services.jpg", 
+      content: `
+        <p>Cloud bills can spiral out of control. We analyze your infrastructure to identify waste, resize resources, and implement savings plans, often reducing cloud spend by 30-50%.</p>
+        <ul>
+          <li><i class="bi bi-check-circle"></i> <span><strong>Resource Auditing:</strong> Identifying idle instances, unattached volumes, and over-provisioned services.</span></li>
+          <li><i class="bi bi-check-circle"></i> <span><strong>Architecture Refactoring:</strong> Moving to serverless or containerized solutions to pay only for what you use.</span></li>
+          <li><i class="bi bi-check-circle"></i> <span><strong>FinOps Implementation:</strong> Establishing governance to keep costs predictable in the future.</span></li>
+        </ul>
+        <p>Maximize your ROI by ensuring every dollar spent on the cloud is contributing to business value.</p>
+      `
+    }
+  };
+
+  // 2. Initialize Logic
+  document.addEventListener('DOMContentLoaded', () => {
+    const links = document.querySelectorAll('.service-link');
+    const titleEl = document.getElementById('service-title');
+    const imgEl = document.getElementById('service-image');
+    const contentEl = document.getElementById('service-content');
+
+    // Helper function to update content
+    const updateContent = (serviceKey) => {
+      const data = serviceData[serviceKey];
+      if (data) {
+        // Update DOM
+        titleEl.innerText = data.title;
+        imgEl.src = data.img;
+        contentEl.innerHTML = data.content;
+
+        // Update Active Class on Sidebar
+        links.forEach(l => l.classList.remove('active'));
+        const activeLink = document.querySelector(`.service-link[data-service="${serviceKey}"]`);
+        if (activeLink) activeLink.classList.add('active');
+        
+        // Scroll to top of section (mobile friendly)
+        const section = document.getElementById('service-details');
+        if(section) section.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+
+    // Add Click Listeners to Sidebar
+    links.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const serviceKey = link.getAttribute('data-service');
+        updateContent(serviceKey);
+      });
+    });
+
+    // 3. CHECK URL PARAMETERS (The new part)
+    // This looks for ?service=xyz in the URL and loads that content immediately
+    const urlParams = new URLSearchParams(window.location.search);
+    const serviceParam = urlParams.get('service');
+
+    if (serviceParam && serviceData[serviceParam]) {
+      // If a valid service parameter exists, load it
+      updateContent(serviceParam);
+    } else {
+      // Default fallback (optional, if you want to ensure the first one is always active if no param)
+       // updateContent('ai-ml'); 
+    }
+  });
+  </script>
 
 </body>
 

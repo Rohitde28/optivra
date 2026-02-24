@@ -7,7 +7,7 @@
   "use strict";
 
   // Configuration - UPDATE THIS WITH YOUR GOOGLE APPS SCRIPT WEB APP URL
-  const FORM_ENDPOINT = 'YOUR_GOOGLE_APPS_SCRIPT_URL_HERE';
+  const FORM_ENDPOINT = 'https://script.google.com/macros/s/AKfycby_NuDLU4gq87JJQOPHPxaoG5i-DpU4QNcNKq4MVGIYjDR8cg7Bzw_RoTUSgzhQSC0V/exec';
 
   /**
    * Initialize all functionality
